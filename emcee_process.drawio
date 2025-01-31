@@ -241,7 +241,7 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--53" value="Emcee: Get venue Wifi login info&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="4120" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--51" value="Emcee: Greet Speaker, give logistics overview" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--51" value="Emcee: Greet IRL Speaker, give logistics overview" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="3920" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--47" value="Speaker(s) IRL or Online?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
@@ -306,16 +306,17 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--155" value="Emcee: With Online Speaker and Online MC, connect and test with Zoom link" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5720" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" target="JT1Y_9tIaNJaj05C3qr--157">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;exitX=1.001;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" target="JT1Y_9tIaNJaj05C3qr--157">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5929.999999999999" y="44.960000000000036" as="sourcePoint" />
+            <mxPoint x="6023.119999999999" y="45.72000000000003" as="sourcePoint" />
+            <mxPoint x="6050" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--157" target="JT1Y_9tIaNJaj05C3qr--239">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="6038" y="94.96000000000004" />
-              <mxPoint x="6438" y="94.96000000000004" />
+              <mxPoint x="6120" y="95" />
+              <mxPoint x="6551" y="95" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -349,6 +350,12 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--239" value="Emcee: Start Introduction at specific time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="6491" y="14.96" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--293" value="Emcee: Greet Online Speaker, give logistics overview" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="5902" y="21" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--155" target="JT1Y_9tIaNJaj05C3qr--293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--238" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#FFE6CC;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-19">
           <mxGeometry x="20" y="490" width="10300" height="120" as="geometry" />
         </mxCell>
@@ -378,8 +385,8 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--283" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.456;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--278" target="JT1Y_9tIaNJaj05C3qr--282">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7164" y="110" />
-              <mxPoint x="7569" y="110" />
+              <mxPoint x="7315" y="110" />
+              <mxPoint x="7720" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -490,7 +497,7 @@
             <mxPoint x="5760" y="510" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="5760" y="500" />
-              <mxPoint x="6094" y="500" />
+              <mxPoint x="6265" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
