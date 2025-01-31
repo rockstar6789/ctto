@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1814" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3016" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,9 +173,18 @@
             <mxPoint x="320" y="50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--47">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--47" target="JT1Y_9tIaNJaj05C3qr--155">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5298.876302083333" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3780" y="100" />
+              <mxPoint x="5780" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--292" value="Online" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FC;" vertex="1" connectable="0" parent="JT1Y_9tIaNJaj05C3qr--50">
+          <mxGeometry x="-0.9922" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--47" target="JT1Y_9tIaNJaj05C3qr--51">
@@ -265,28 +274,25 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--147" target="JT1Y_9tIaNJaj05C3qr--149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--147" value="Emcee: Open current Google Slide deck" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--147" value="Emcee: Open current Google Slide deck, troubleshoot with A/V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="4920" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--149" target="JT1Y_9tIaNJaj05C3qr--151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--149" value="Emcee: Test IRL Mic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--149" value="Emcee: Test IRL Mic wit A/V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5120" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--151" target="JT1Y_9tIaNJaj05C3qr--153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--151" value="Emcee: Open Zoom link and troubleshoot video, sharing, audio with Online Emcee" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--151" value="Emcee: Go to 1st slide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5320" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--153" target="JT1Y_9tIaNJaj05C3qr--155">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--153" value="Emcee: Go to 1st slide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--153" value="Emcee: with Online MC, Test audio, video sharing, troubleshoot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5520" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--155" value="Emcee: with Online MC, Test audio, video sharing, troubleshoot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--155" value="Emcee: With Online Speaker and Online MC, connect and test with Zoom link" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5720" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--239" value="Emcee: Start Introduction at specific time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
@@ -470,6 +476,15 @@
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--251" value="Emcee: Start Speaker phase of slides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
           <mxGeometry x="7089" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;entryX=0.21;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JT1Y_9tIaNJaj05C3qr--157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5760" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="5760" y="500" />
+              <mxPoint x="6094" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
