@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3016" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="662" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,17 @@
             <mxPoint x="1050" y="40" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--266" value="MC: Send follow up thank you email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="9440" y="36" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--273" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="9650" y="25" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="JT1Y_9tIaNJaj05C3qr--266" target="JT1Y_9tIaNJaj05C3qr--273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8319" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Call" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#E1D5E7;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="250" width="10300" height="120" as="geometry" />
         </mxCell>
@@ -295,46 +306,51 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--155" value="Emcee: With Online Speaker and Online MC, connect and test with Zoom link" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="5720" y="20" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" target="JT1Y_9tIaNJaj05C3qr--157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5929.999999999999" y="44.960000000000036" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--157" target="JT1Y_9tIaNJaj05C3qr--239">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6038" y="94.96000000000004" />
+              <mxPoint x="6438" y="94.96000000000004" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--248" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FC;" vertex="1" connectable="0" parent="JT1Y_9tIaNJaj05C3qr--240">
+          <mxGeometry x="-0.9581" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--157" target="JT1Y_9tIaNJaj05C3qr--159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--244" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FC;" vertex="1" connectable="0" parent="JT1Y_9tIaNJaj05C3qr--160">
+          <mxGeometry x="-0.2573" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="JT1Y_9tIaNJaj05C3qr--159" target="JT1Y_9tIaNJaj05C3qr--157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6238" y="4.9599999999999795" />
+              <mxPoint x="6038" y="4.9599999999999795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--157" value="Is it Start time?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="6060" y="14.95999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--159" value="Wait till Start time." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="6291" y="14.95999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--239" value="Emcee: Start Introduction at specific time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="6320" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="6491" y="14.96" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--238" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#FFE6CC;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-19">
           <mxGeometry x="20" y="490" width="10300" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--241" value="Emcee: Tell audience we are going to start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="6509" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--273" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="9319" y="-346" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--266" value="MC: Send follow up thank you email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="9109" y="-335" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--267" target="JT1Y_9tIaNJaj05C3qr--266">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--267" value="Emcee: Start Wrap up phase and thank yous." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="9109" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--261" value="Emcee: Start Wrap up phase and thank yous." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="8909" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--259" value="Emcee: Start Pitches phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="8709" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--257" value="Emcee: Thanks Speaker at end of Q&amp;amp;A phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="8509" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--255" value="Emcee: Alternate IRL (pass mic audience for questions) and Online Q&amp;amp;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="8309" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--253" value="Emcee: Start Speaker Q&amp;amp;A phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="8109" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--266" target="JT1Y_9tIaNJaj05C3qr--273">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="8319" y="-305" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--261" target="JT1Y_9tIaNJaj05C3qr--267">
           <mxGeometry relative="1" as="geometry" />
@@ -359,9 +375,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--278" value="Speaker IRL or Online?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="7109" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--283" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.456;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--278" target="JT1Y_9tIaNJaj05C3qr--282">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -375,26 +388,14 @@
             <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--280" value="Emcee: Switch to Speaker slides (Use current or Speaker &#39;s Laptop via Zoom)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="7309" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--285" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--282" target="JT1Y_9tIaNJaj05C3qr--284">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--282" value="Emcee: Switch to Speaker slides (Use current Laptop via Zoom)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="7509" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--287" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--284" target="JT1Y_9tIaNJaj05C3qr--286">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--284" value="Speaker: Start presentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="7709" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--286" target="JT1Y_9tIaNJaj05C3qr--253">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--286" value="Speaker: End Presentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
-          <mxGeometry x="7909" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.551;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--280" target="JT1Y_9tIaNJaj05C3qr--284">
           <mxGeometry relative="1" as="geometry">
@@ -403,6 +404,57 @@
               <mxPoint x="7775" y="10" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--267" value="Emcee: Start Wrap up phase and thank yous." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="9260" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--261" value="Emcee: Start Wrap up phase and thank yous." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="9060" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--259" value="Emcee: Start Pitches phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="8860" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--257" value="Emcee: Thanks Speaker at end of Q&amp;amp;A phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="8660" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--255" value="Emcee: Alternate IRL (pass mic audience for questions) and Online Q&amp;amp;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="8460" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--253" value="Emcee: Start Speaker Q&amp;amp;A phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="8260" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--286" value="Speaker: End Presentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="8060" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--284" value="Speaker: Start presentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="7860" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--282" value="Emcee: Switch to Speaker slides (Use current Laptop via Zoom)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="7660" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--280" value="Emcee: Switch to Speaker slides (Use current or Speaker &#39;s Laptop via Zoom)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="7460" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--278" value="Speaker IRL or Online?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="7260" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--251" value="Emcee: Start Speaker phase of slides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="7060" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--279" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--251" target="JT1Y_9tIaNJaj05C3qr--278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--249" value="Emcee: Start Housekeeping and CTTO Intro phase (pre-Speaker phase)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="6860" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--249" target="JT1Y_9tIaNJaj05C3qr--251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--241" value="Emcee: Tell audience we are going to start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="JT1Y_9tIaNJaj05C3qr--238">
+          <mxGeometry x="6660" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="JT1Y_9tIaNJaj05C3qr--238" source="JT1Y_9tIaNJaj05C3qr--241" target="JT1Y_9tIaNJaj05C3qr--249">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="JT1Y_9tIaNJaj05C3qr--55" target="JT1Y_9tIaNJaj05C3qr--131">
           <mxGeometry relative="1" as="geometry">
@@ -424,58 +476,14 @@
         <mxCell id="JT1Y_9tIaNJaj05C3qr--242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="JT1Y_9tIaNJaj05C3qr--239" target="JT1Y_9tIaNJaj05C3qr--241">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--157" target="JT1Y_9tIaNJaj05C3qr--159">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--244" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FC;" vertex="1" connectable="0" parent="JT1Y_9tIaNJaj05C3qr--160">
-          <mxGeometry x="-0.2573" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--157" value="Is it Start time?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="6069" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--155" target="JT1Y_9tIaNJaj05C3qr--157">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--157" target="JT1Y_9tIaNJaj05C3qr--239">
+        <mxCell id="JT1Y_9tIaNJaj05C3qr--274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;entryX=0.016;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="JT1Y_9tIaNJaj05C3qr--267" target="JT1Y_9tIaNJaj05C3qr--266">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9440" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="6128" y="590" />
-              <mxPoint x="6528" y="590" />
+              <mxPoint x="9340" y="190" />
+              <mxPoint x="9420" y="190" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--248" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#DAE8FC;" vertex="1" connectable="0" parent="JT1Y_9tIaNJaj05C3qr--240">
-          <mxGeometry x="-0.9581" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--159" target="JT1Y_9tIaNJaj05C3qr--157">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="6328" y="500" />
-              <mxPoint x="6128" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--159" value="Wait till Start time." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="6300" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--249" target="JT1Y_9tIaNJaj05C3qr--251">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--249" value="Emcee: Start Housekeeping and CTTO Intro phase (pre-Speaker phase)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
-          <mxGeometry x="6889" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--241" target="JT1Y_9tIaNJaj05C3qr--249">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--279" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="JT1Y_9tIaNJaj05C3qr--251" target="JT1Y_9tIaNJaj05C3qr--278">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JT1Y_9tIaNJaj05C3qr--251" value="Emcee: Start Speaker phase of slides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
-          <mxGeometry x="7089" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JT1Y_9tIaNJaj05C3qr--156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;entryX=0.21;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JT1Y_9tIaNJaj05C3qr--157">
           <mxGeometry relative="1" as="geometry">
